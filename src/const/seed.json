@@ -1,0 +1,2572 @@
+[
+  {
+    "merchant": [
+      {
+        "id": "23a06765-f232-430d-8eea-05ef9ff15317",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "info@abcstore.com",
+        "description": "A local store selling various products",
+        "created_at": "2023-09-21T09:06:01.454Z",
+        "updated_at": "2023-09-21T05:05:43.271Z"
+      },
+      {
+        "id": "c40623fd-bdd6-499a-9d77-75ce3410929e",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-123-4567",
+        "email": "contact@xyzshop.com",
+        "description": "An online shop offering a wide range of items",
+        "created_at": "2023-09-21T08:43:22.110Z",
+        "updated_at": "2023-09-20T13:41:33.539Z"
+      },
+      {
+        "id": "12514f9d-e13a-4f71-826c-9d2e7f1980d7",
+        "name": "123 Market",
+        "merchant_address": "789 Oak Ave",
+        "phone_number": "987-654-3210",
+        "email": "sales@123market.com",
+        "description": "A market specializing in fresh produce",
+        "created_at": "2023-09-21T01:13:30.847Z",
+        "updated_at": "2023-09-20T20:27:28.583Z"
+      },
+      {
+        "id": "2907460b-55fc-4727-9aca-f18c9f14bed0",
+        "name": "Best Buy",
+        "merchant_address": "555 Pine Rd",
+        "phone_number": "888-999-0000",
+        "email": "support@bestbuy.com",
+        "description": "A popular electronics retailer",
+        "created_at": "2023-09-21T03:56:15.203Z",
+        "updated_at": "2023-09-20T11:35:17.142Z"
+      },
+      {
+        "id": "fbc85134-b80d-4835-8e6e-5bf7fcd31a87",
+        "name": "Supermart",
+        "merchant_address": "999 Maple Ln",
+        "phone_number": "111-222-3333",
+        "email": "info@supermart.com",
+        "description": "A large supermarket chain",
+        "created_at": "2023-09-21T10:10:16.673Z",
+        "updated_at": "2023-09-20T12:23:43.806Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "ca7beeea-7c8f-4fc9-86a1-3e243274433d",
+        "transaction_date": "2023-09-20T20:12:28.154Z",
+        "amount": 91933,
+        "reward_points": 31138,
+        "fiscal_year": 9694,
+        "created_at": "2023-09-20T19:34:02.582Z",
+        "updated_at": "2023-09-21T05:38:09.817Z",
+        "merchant_id": "12514f9d-e13a-4f71-826c-9d2e7f1980d7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "11202696-1439-4510-89d6-c1d39a8dbf5c",
+        "transaction_date": "2023-09-20T18:27:41.517Z",
+        "amount": 42595,
+        "reward_points": 43325,
+        "fiscal_year": 64796,
+        "created_at": "2023-09-20T11:27:13.363Z",
+        "updated_at": "2023-09-20T14:08:03.687Z",
+        "merchant_id": "23a06765-f232-430d-8eea-05ef9ff15317",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f9f5ca8-65c0-4702-8183-7ce61fab724f",
+        "transaction_date": "2023-09-21T06:58:33.314Z",
+        "amount": 49011,
+        "reward_points": 49891,
+        "fiscal_year": 27367,
+        "created_at": "2023-09-21T10:58:03.512Z",
+        "updated_at": "2023-09-20T17:05:06.789Z",
+        "merchant_id": "fbc85134-b80d-4835-8e6e-5bf7fcd31a87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7c753ba2-c1db-4726-9f04-74e59c3017fc",
+        "transaction_date": "2023-09-20T20:58:19.227Z",
+        "amount": 56421,
+        "reward_points": 2427,
+        "fiscal_year": 73141,
+        "created_at": "2023-09-20T14:38:15.123Z",
+        "updated_at": "2023-09-20T19:03:50.513Z",
+        "merchant_id": "c40623fd-bdd6-499a-9d77-75ce3410929e",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5dc00936-fba7-4d1e-99e5-19e93d1a4732",
+        "transaction_date": "2023-09-21T10:44:19.551Z",
+        "amount": 11322,
+        "reward_points": 27068,
+        "fiscal_year": 45200,
+        "created_at": "2023-09-21T03:55:25.517Z",
+        "updated_at": "2023-09-20T11:47:37.181Z",
+        "merchant_id": "2907460b-55fc-4727-9aca-f18c9f14bed0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "240b1a53-dad4-41d0-af1b-6e1211bdb6a4",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-20T13:55:42.119Z",
+        "updated_at": "2023-09-20T15:43:10.536Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0c9ca3fa-f750-4e99-a827-383c91f644d5",
+        "card_number": "9876543210987654",
+        "card_pin": "5678",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-21T01:17:24.361Z",
+        "updated_at": "2023-09-20T17:00:01.603Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "108800da-c21b-488b-a271-86ee0bab7fcc",
+        "card_number": "5678901234567890",
+        "card_pin": "9012",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T20:41:56.028Z",
+        "updated_at": "2023-09-21T10:56:58.132Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "327788e6-7466-45fd-9283-12b8377af63b",
+        "card_number": "4321098765432109",
+        "card_pin": "3456",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-21T08:32:05.392Z",
+        "updated_at": "2023-09-21T04:42:33.775Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "adb07076-2937-4618-8517-32296cc5d095",
+        "card_number": "2468135791357924",
+        "card_pin": "7890",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-21T02:53:44.883Z",
+        "updated_at": "2023-09-21T09:34:44.043Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "bb7a1ca3-0cd0-4419-bb1b-bc12cca69879",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "X",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-20T23:34:53.592Z",
+        "updated_at": "2023-09-20T19:14:54.335Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "baab6926-c620-4a3d-bbef-2d69c2dfdc08",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "Y",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-21T10:10:12.725Z",
+        "updated_at": "2023-09-20T12:17:23.961Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ad4be3f5-b9db-475c-99fc-5ac4cb72b6cc",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "Z",
+        "address_address": "789 Oak Ave",
+        "created_at": "2023-09-20T14:47:47.908Z",
+        "updated_at": "2023-09-20T21:14:46.886Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "aeac673e-999e-4764-9b9e-8168c4075261",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "W",
+        "address_address": "555 Pine Rd",
+        "created_at": "2023-09-20T14:41:50.558Z",
+        "updated_at": "2023-09-20T20:07:29.792Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "976fcfc1-4a36-41d2-859a-bceee20a7a94",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "V",
+        "address_address": "999 Maple Ln",
+        "created_at": "2023-09-20T20:03:43.172Z",
+        "updated_at": "2023-09-21T08:24:50.570Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "3d262074-06ee-4793-8110-0915e6e981ef",
+        "email": "Mackenzie19@roq.tech",
+        "firstName": "Electa",
+        "lastName": "Ernser",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/97050269",
+        "tenantId": null
+      },
+      {
+        "reference": "ffa99031-8196-4159-b167-9adec85b197b",
+        "email": "Art_Mayer57@roq.tech",
+        "firstName": "Deon",
+        "lastName": "Parisian",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/21646169",
+        "tenantId": null
+      },
+      {
+        "reference": "15b5ccf4-920d-420c-b571-811011c404d6",
+        "email": "Rylee_Schultz@roq.tech",
+        "firstName": "Alejandra",
+        "lastName": "Mayer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/271.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "3cd232a1-7171-4a29-9011-43d7f1023d93",
+        "email": "Louisa.Heller@roq.tech",
+        "firstName": "Margaretta",
+        "lastName": "Cartwright",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68171105",
+        "tenantId": null
+      },
+      {
+        "reference": "7d412e8f-13a4-436e-9057-e1f61873d985",
+        "email": "Liam.Johns@roq.tech",
+        "firstName": "Hiram",
+        "lastName": "West",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/33629500",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "04fd8682-76ae-4cee-a312-22c4c41c13eb",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A small local store",
+        "created_at": "2023-09-21T11:13:45.869Z",
+        "updated_at": "2023-09-20T18:25:54.020Z"
+      },
+      {
+        "id": "95702cbc-5704-4a34-b1a6-7c405f438394",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "email": "xyzshop@example.com",
+        "description": "A popular shop in town",
+        "created_at": "2023-09-21T01:06:53.701Z",
+        "updated_at": "2023-09-21T03:19:24.813Z"
+      },
+      {
+        "id": "17000fbc-614b-47b8-b399-a27a6e65e1fd",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "email": "123mart@example.com",
+        "description": "A convenient mart",
+        "created_at": "2023-09-21T08:46:59.784Z",
+        "updated_at": "2023-09-20T17:59:45.913Z"
+      },
+      {
+        "id": "d26059c3-f0d5-49f4-901b-809adc07e03c",
+        "name": "Best Buy",
+        "merchant_address": "321 Pine St",
+        "phone_number": "888-999-0000",
+        "email": "bestbuy@example.com",
+        "description": "A well-known electronics retailer",
+        "created_at": "2023-09-21T01:38:08.336Z",
+        "updated_at": "2023-09-20T13:08:16.905Z"
+      },
+      {
+        "id": "e347b2dc-e1da-44c1-9b34-ea7671e20fde",
+        "name": "Supermarket",
+        "merchant_address": "987 Maple St",
+        "phone_number": "111-222-3333",
+        "email": "supermarket@example.com",
+        "description": "A large grocery store",
+        "created_at": "2023-09-20T23:01:16.220Z",
+        "updated_at": "2023-09-20T14:40:31.781Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "bd3bb2e3-e377-4929-a687-2740dd2e4d5e",
+        "transaction_date": "2023-09-20T16:35:01.489Z",
+        "amount": 93168,
+        "reward_points": 25130,
+        "fiscal_year": 7448,
+        "created_at": "2023-09-20T16:10:54.003Z",
+        "updated_at": "2023-09-20T16:27:31.670Z",
+        "merchant_id": "95702cbc-5704-4a34-b1a6-7c405f438394",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a3a18e2b-ef0d-4270-b5ab-ee1b7421cd11",
+        "transaction_date": "2023-09-21T05:11:22.918Z",
+        "amount": 45179,
+        "reward_points": 23873,
+        "fiscal_year": 70995,
+        "created_at": "2023-09-21T07:00:22.814Z",
+        "updated_at": "2023-09-21T03:27:59.139Z",
+        "merchant_id": "d26059c3-f0d5-49f4-901b-809adc07e03c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fab53aca-5cc5-409f-a558-c48e6de39277",
+        "transaction_date": "2023-09-21T08:27:13.958Z",
+        "amount": 25759,
+        "reward_points": 39908,
+        "fiscal_year": 63885,
+        "created_at": "2023-09-20T21:35:22.085Z",
+        "updated_at": "2023-09-21T10:22:37.488Z",
+        "merchant_id": "d26059c3-f0d5-49f4-901b-809adc07e03c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6823e766-9dde-4395-a35c-a392e315e7d1",
+        "transaction_date": "2023-09-20T22:07:43.241Z",
+        "amount": 77339,
+        "reward_points": 99440,
+        "fiscal_year": 97291,
+        "created_at": "2023-09-21T04:33:46.527Z",
+        "updated_at": "2023-09-20T15:52:02.203Z",
+        "merchant_id": "04fd8682-76ae-4cee-a312-22c4c41c13eb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29a6038a-57ec-41c3-92d1-e321f534f6db",
+        "transaction_date": "2023-09-20T18:18:11.036Z",
+        "amount": 77369,
+        "reward_points": 31233,
+        "fiscal_year": 73644,
+        "created_at": "2023-09-20T23:45:56.943Z",
+        "updated_at": "2023-09-20T22:12:11.487Z",
+        "merchant_id": "d26059c3-f0d5-49f4-901b-809adc07e03c",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "c0929d25-8da4-4a4d-b2bd-750fe3acff5b",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-21T03:44:58.076Z",
+        "updated_at": "2023-09-21T00:07:27.370Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cd05c506-48b0-42de-8ddf-a8215cd8ee93",
+        "card_number": "9876543210987654",
+        "card_pin": "9876",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T11:52:21.622Z",
+        "updated_at": "2023-09-20T19:31:23.187Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5a1177c-52df-4027-b596-c4fbf48a382a",
+        "card_number": "5555444433332222",
+        "card_pin": "5555",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-21T01:30:09.655Z",
+        "updated_at": "2023-09-21T02:53:05.037Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "15b7697c-9390-4562-bd1c-df86f523f879",
+        "card_number": "8888777766665555",
+        "card_pin": "8888",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-20T19:23:59.669Z",
+        "updated_at": "2023-09-21T06:42:41.623Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ff17bc02-d341-4ee2-9be3-ebb931b9a3bf",
+        "card_number": "1111222233334444",
+        "card_pin": "1111",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-21T10:56:18.272Z",
+        "updated_at": "2023-09-21T01:13:38.412Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "4e2adc5f-de72-409b-92d7-3a9d61aaa53c",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "Q123",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-20T19:30:40.796Z",
+        "updated_at": "2023-09-21T06:27:04.807Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "383e46ba-4631-4830-8fe4-d5a3ac6d9e30",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "Q456",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-21T08:30:22.380Z",
+        "updated_at": "2023-09-20T21:12:52.632Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f76e6fc3-df68-452a-8cc4-9542910b47ca",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "Q789",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-21T09:32:33.931Z",
+        "updated_at": "2023-09-20T11:26:52.064Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "357dbf2d-cfec-4d1c-83d4-fdfea31ed328",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "Q321",
+        "address_address": "321 Pine St",
+        "created_at": "2023-09-20T21:01:56.643Z",
+        "updated_at": "2023-09-20T15:13:09.067Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b9d04f58-177e-46e1-9046-624e06fe418e",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "Q987",
+        "address_address": "987 Maple St",
+        "created_at": "2023-09-20T15:12:26.511Z",
+        "updated_at": "2023-09-20T16:44:50.573Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "057536ca-eac1-4b13-b158-6500f52d3194",
+        "email": "Kristian_Roob99@roq.tech",
+        "firstName": "Lucie",
+        "lastName": "Schaefer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55580249",
+        "tenantId": null
+      },
+      {
+        "reference": "aae35077-5ad2-434f-a91b-cac47c2bfff8",
+        "email": "Julius86@roq.tech",
+        "firstName": "Marlee",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/99409004",
+        "tenantId": null
+      },
+      {
+        "reference": "63f066cf-370d-4a27-9597-c3bcc1b67a84",
+        "email": "Olga32@roq.tech",
+        "firstName": "Edgardo",
+        "lastName": "Spencer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/477.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "99e1ea4e-dc35-4780-9421-0071aa4a148f",
+        "email": "Shaina.Hammes42@roq.tech",
+        "firstName": "River",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/242.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "69a38ac4-9d20-4a36-ab8c-1625498a8198",
+        "email": "Abbigail.Zulauf@roq.tech",
+        "firstName": "Krista",
+        "lastName": "King",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/709.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "5e0ddd2a-6b99-4408-86f2-af7aec8013d0",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A store for all your needs",
+        "created_at": "2023-09-20T23:24:13.983Z",
+        "updated_at": "2023-09-21T02:52:41.352Z"
+      },
+      {
+        "id": "793485c3-b47a-4c3a-81d2-8036c4ae3f38",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-555-5555",
+        "email": "xyzshop@example.com",
+        "description": "Quality products at affordable prices",
+        "created_at": "2023-09-21T02:07:28.076Z",
+        "updated_at": "2023-09-20T19:10:39.177Z"
+      },
+      {
+        "id": "436d32a6-3aad-4408-8923-a1bd03883785",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak St",
+        "phone_number": "987-654-3210",
+        "email": "123mart@example.com",
+        "description": "Convenient location and great service",
+        "created_at": "2023-09-21T06:09:48.003Z",
+        "updated_at": "2023-09-21T00:38:09.325Z"
+      },
+      {
+        "id": "64cca8ac-ae5a-4bc9-b76b-cfb388fd555f",
+        "name": "Best Buy",
+        "merchant_address": "10 Pine St",
+        "phone_number": "111-222-3333",
+        "email": "bestbuy@example.com",
+        "description": "Wide variety of items available",
+        "created_at": "2023-09-20T13:30:48.954Z",
+        "updated_at": "2023-09-21T09:23:45.953Z"
+      },
+      {
+        "id": "f83bd730-c3ea-4ff8-9f66-09eca5a876b8",
+        "name": "Supermarket",
+        "merchant_address": "55 Maple St",
+        "phone_number": "444-444-4444",
+        "email": "supermarket@example.com",
+        "description": "Your one-stop shop",
+        "created_at": "2023-09-20T13:48:34.863Z",
+        "updated_at": "2023-09-21T06:42:52.888Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "13a523ed-c2de-44e8-b414-fe5d6006f9ff",
+        "transaction_date": "2023-09-21T02:49:47.918Z",
+        "amount": 40958,
+        "reward_points": 14661,
+        "fiscal_year": 65689,
+        "created_at": "2023-09-20T16:28:19.422Z",
+        "updated_at": "2023-09-21T08:10:34.140Z",
+        "merchant_id": "793485c3-b47a-4c3a-81d2-8036c4ae3f38",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0dddf43b-9c59-4fe8-8a78-39e77d307ce4",
+        "transaction_date": "2023-09-21T07:54:34.371Z",
+        "amount": 69805,
+        "reward_points": 24952,
+        "fiscal_year": 20823,
+        "created_at": "2023-09-20T14:59:11.210Z",
+        "updated_at": "2023-09-20T22:34:30.668Z",
+        "merchant_id": "f83bd730-c3ea-4ff8-9f66-09eca5a876b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b430b8eb-17e2-40ef-ba90-c9ac505f5652",
+        "transaction_date": "2023-09-21T00:51:20.534Z",
+        "amount": 66934,
+        "reward_points": 60903,
+        "fiscal_year": 86942,
+        "created_at": "2023-09-21T03:04:30.760Z",
+        "updated_at": "2023-09-20T13:44:21.518Z",
+        "merchant_id": "f83bd730-c3ea-4ff8-9f66-09eca5a876b8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cec41042-b85a-42f8-b044-0a59563acfcb",
+        "transaction_date": "2023-09-21T05:10:17.939Z",
+        "amount": 50699,
+        "reward_points": 46708,
+        "fiscal_year": 49164,
+        "created_at": "2023-09-20T14:13:52.236Z",
+        "updated_at": "2023-09-21T02:28:34.528Z",
+        "merchant_id": "436d32a6-3aad-4408-8923-a1bd03883785",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ac1d378e-b733-4046-b821-88fe04bc8e77",
+        "transaction_date": "2023-09-21T08:52:42.257Z",
+        "amount": 12003,
+        "reward_points": 80465,
+        "fiscal_year": 73641,
+        "created_at": "2023-09-20T20:16:58.880Z",
+        "updated_at": "2023-09-21T07:56:04.827Z",
+        "merchant_id": "5e0ddd2a-6b99-4408-86f2-af7aec8013d0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "52e78801-31f5-4c85-8344-542711f7ea23",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-21T10:45:19.770Z",
+        "updated_at": "2023-09-20T15:54:24.839Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8203bd7-15b8-4a8b-910f-29b8630d3e34",
+        "card_number": "9876543210987654",
+        "card_pin": "5678",
+        "phone_number": "555-555-5555",
+        "created_at": "2023-09-21T06:59:26.819Z",
+        "updated_at": "2023-09-20T22:26:36.962Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "710242fb-779c-4599-8786-36f74d1d6c1e",
+        "card_number": "5678901234567890",
+        "card_pin": "9012",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T23:26:47.332Z",
+        "updated_at": "2023-09-20T11:56:29.692Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9a2de669-62e8-49a0-9bc5-d24052b87553",
+        "card_number": "4321098765432109",
+        "card_pin": "3456",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-21T10:09:52.446Z",
+        "updated_at": "2023-09-21T07:15:42.291Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c130411-559b-4011-aa86-a6a35a9ef434",
+        "card_number": "8765432109876543",
+        "card_pin": "7890",
+        "phone_number": "444-444-4444",
+        "created_at": "2023-09-20T20:19:09.652Z",
+        "updated_at": "2023-09-21T07:00:44.470Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "b23b8a8b-a70d-442c-80c9-c5f4f5c004e0",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "123",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-20T12:54:31.412Z",
+        "updated_at": "2023-09-20T11:59:15.060Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "89001b1c-3a71-4cee-877a-1dff3b7b814d",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "456",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-21T02:32:20.691Z",
+        "updated_at": "2023-09-21T08:16:28.405Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8a2b82dc-3d7b-4344-9b2b-6fd9a982391b",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "789",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-21T05:10:38.590Z",
+        "updated_at": "2023-09-21T05:16:18.177Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "eac86ebc-d047-4792-a37b-2a84b64881b9",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "012",
+        "address_address": "10 Pine St",
+        "created_at": "2023-09-20T16:34:28.648Z",
+        "updated_at": "2023-09-21T04:02:16.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5b6783a1-57f0-41dc-a24b-ca641359f4e3",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "345",
+        "address_address": "55 Maple St",
+        "created_at": "2023-09-21T00:34:48.467Z",
+        "updated_at": "2023-09-21T06:01:59.292Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "da4b2aa1-498c-47d6-80f5-ef65b0273cd0",
+        "email": "Osborne_McKenzie@roq.tech",
+        "firstName": "Cecile",
+        "lastName": "Emard",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/760.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "82fb95f8-fb3e-4e6b-8803-cca0878b57a3",
+        "email": "Jacinthe.Glover26@roq.tech",
+        "firstName": "Larissa",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/12288346",
+        "tenantId": null
+      },
+      {
+        "reference": "28173207-d97e-4331-ae98-02de6fe76130",
+        "email": "Samantha38@roq.tech",
+        "firstName": "Lilla",
+        "lastName": "Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/81697131",
+        "tenantId": null
+      },
+      {
+        "reference": "ac6933af-3a4a-42cc-8c5d-b03727264f42",
+        "email": "Muriel.Hickle27@roq.tech",
+        "firstName": "Raoul",
+        "lastName": "O'Conner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/398.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "dc01a299-5c53-4667-bb14-8e7654c31602",
+        "email": "Roxanne_Parisian@roq.tech",
+        "firstName": "Hallie",
+        "lastName": "Bruen",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/859.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "a6d00f79-46fd-4733-bd9e-7a5f1c16d6e9",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A local store selling various products",
+        "created_at": "2023-09-20T22:19:31.584Z",
+        "updated_at": "2023-09-20T19:02:06.931Z"
+      },
+      {
+        "id": "1cdd47e0-ffd9-49a3-9aae-bd4927c05630",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-123-4567",
+        "email": "xyzshop@example.com",
+        "description": "An online shop offering unique items",
+        "created_at": "2023-09-21T07:41:06.831Z",
+        "updated_at": "2023-09-21T10:48:27.534Z"
+      },
+      {
+        "id": "3bc925e2-ba99-4ef2-b05d-7de1eccdbcb5",
+        "name": "123 Market",
+        "merchant_address": "789 Oak St",
+        "phone_number": "987-654-3210",
+        "email": "123market@example.com",
+        "description": "A market specializing in fresh produce",
+        "created_at": "2023-09-20T15:03:05.248Z",
+        "updated_at": "2023-09-21T06:18:39.916Z"
+      },
+      {
+        "id": "3169b8e9-4bf4-4e35-9095-4f8d14618ed7",
+        "name": "Best Buy",
+        "merchant_address": "987 Maple Ave",
+        "phone_number": "321-654-9870",
+        "email": "bestbuy@example.com",
+        "description": "A popular electronics retailer",
+        "created_at": "2023-09-21T07:06:28.956Z",
+        "updated_at": "2023-09-21T06:00:17.340Z"
+      },
+      {
+        "id": "ac11e998-3b08-4042-b2f8-9bdf6355c222",
+        "name": "Super Mart",
+        "merchant_address": "654 Pine Rd",
+        "phone_number": "888-999-0000",
+        "email": "supermart@example.com",
+        "description": "A large supermarket with a wide selection",
+        "created_at": "2023-09-20T12:29:18.942Z",
+        "updated_at": "2023-09-20T12:06:27.157Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "e1185983-29de-4e97-beb9-08cb382cae86",
+        "transaction_date": "2023-09-20T15:17:41.856Z",
+        "amount": 2976,
+        "reward_points": 67585,
+        "fiscal_year": 58716,
+        "created_at": "2023-09-20T21:15:01.152Z",
+        "updated_at": "2023-09-21T05:45:11.849Z",
+        "merchant_id": "a6d00f79-46fd-4733-bd9e-7a5f1c16d6e9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "74fe3c20-87b2-49c0-ac08-b35e50b3b2c7",
+        "transaction_date": "2023-09-21T10:33:38.527Z",
+        "amount": 49336,
+        "reward_points": 60645,
+        "fiscal_year": 22354,
+        "created_at": "2023-09-20T18:11:45.120Z",
+        "updated_at": "2023-09-20T21:58:21.406Z",
+        "merchant_id": "1cdd47e0-ffd9-49a3-9aae-bd4927c05630",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8f9b8b75-1a76-4ebc-8bb2-f37f12b929a4",
+        "transaction_date": "2023-09-21T03:48:08.058Z",
+        "amount": 73394,
+        "reward_points": 83001,
+        "fiscal_year": 81597,
+        "created_at": "2023-09-21T09:39:27.834Z",
+        "updated_at": "2023-09-21T07:05:31.283Z",
+        "merchant_id": "3bc925e2-ba99-4ef2-b05d-7de1eccdbcb5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d8a1ac18-2d29-45b7-842e-63deb3163702",
+        "transaction_date": "2023-09-21T00:00:46.793Z",
+        "amount": 30577,
+        "reward_points": 24575,
+        "fiscal_year": 87458,
+        "created_at": "2023-09-21T09:51:21.356Z",
+        "updated_at": "2023-09-21T07:07:53.656Z",
+        "merchant_id": "1cdd47e0-ffd9-49a3-9aae-bd4927c05630",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fa22e20-dc37-484d-bad2-8fd8b58eca8e",
+        "transaction_date": "2023-09-21T10:42:17.822Z",
+        "amount": 24197,
+        "reward_points": 39143,
+        "fiscal_year": 22331,
+        "created_at": "2023-09-20T14:39:58.279Z",
+        "updated_at": "2023-09-20T16:27:44.848Z",
+        "merchant_id": "ac11e998-3b08-4042-b2f8-9bdf6355c222",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "561f1819-5b90-440d-8835-44d7cfb838cb",
+        "card_number": "1234 5678 9012 3456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-20T19:25:09.478Z",
+        "updated_at": "2023-09-20T11:59:21.174Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "df0821ae-6c83-4ea6-84bd-0d16952013c2",
+        "card_number": "9876 5432 1098 7654",
+        "card_pin": "5678",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-21T04:03:01.111Z",
+        "updated_at": "2023-09-21T05:53:26.755Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6fb34ff4-cad9-44f1-9309-ae44df3ecb18",
+        "card_number": "2468 1357 8024 6913",
+        "card_pin": "9012",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T14:33:24.617Z",
+        "updated_at": "2023-09-20T17:14:39.405Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0a64391c-64bf-4233-8f90-e76a0740af78",
+        "card_number": "8642 9753 1864 2975",
+        "card_pin": "3456",
+        "phone_number": "321-654-9870",
+        "created_at": "2023-09-20T15:53:12.815Z",
+        "updated_at": "2023-09-21T08:14:36.971Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "56148802-4aab-4a18-b323-a66d010feec3",
+        "card_number": "7531 8642 9753 1864",
+        "card_pin": "7890",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-21T08:07:43.964Z",
+        "updated_at": "2023-09-21T02:03:33.913Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "32d36f30-9e93-42c1-a09d-1a50216b8cf7",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "123",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-21T11:17:55.663Z",
+        "updated_at": "2023-09-21T03:39:37.710Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "911291ad-203c-41a3-b13b-d434e478ef71",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "456",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-20T23:10:12.504Z",
+        "updated_at": "2023-09-21T02:48:02.667Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92323be5-23e2-48d7-b31b-2f379ac0386c",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "789",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-21T03:56:19.876Z",
+        "updated_at": "2023-09-21T01:37:16.719Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2f649618-4081-4cae-a357-f19ea320f976",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "012",
+        "address_address": "987 Maple Ave",
+        "created_at": "2023-09-20T16:15:56.661Z",
+        "updated_at": "2023-09-20T21:29:04.896Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f1d4177b-d8d8-4910-8d4d-51f1959a3278",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "345",
+        "address_address": "654 Pine Rd",
+        "created_at": "2023-09-20T22:56:31.098Z",
+        "updated_at": "2023-09-20T21:23:48.776Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "c0867e61-6f98-464b-a792-7ff2707839fb",
+        "email": "Tanya_Fay19@roq.tech",
+        "firstName": "Talon",
+        "lastName": "Harris",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1054.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "97041c8e-62ab-4802-aeb6-51060356775e",
+        "email": "Cleve.Lueilwitz48@roq.tech",
+        "firstName": "Kailee",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/531.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ae9fbcc6-aa8a-4c57-a35f-470e8e11ac62",
+        "email": "Skylar.Braun60@roq.tech",
+        "firstName": "Emanuel",
+        "lastName": "Reynolds",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/48880260",
+        "tenantId": null
+      },
+      {
+        "reference": "078ad216-94b0-4fde-9552-9064b7eedc50",
+        "email": "Ford_Konopelski@roq.tech",
+        "firstName": "Frank",
+        "lastName": "Stanton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/349.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4e378523-688f-4cea-b684-8bae719f32ec",
+        "email": "Stephon.Stamm@roq.tech",
+        "firstName": "Emmet",
+        "lastName": "Goodwin",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1062.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "9679dda6-93d9-4c13-8fb3-a316eb83c24d",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A local convenience store",
+        "created_at": "2023-09-21T03:18:38.130Z",
+        "updated_at": "2023-09-20T21:20:53.391Z"
+      },
+      {
+        "id": "bfdd27a4-64fe-4ef3-9e9a-e3abe90552d5",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-123-4567",
+        "email": "xyzshop@example.com",
+        "description": "A trendy boutique",
+        "created_at": "2023-09-21T08:12:33.277Z",
+        "updated_at": "2023-09-20T12:07:09.842Z"
+      },
+      {
+        "id": "c7fba5d5-a699-4dad-a265-54adbcc69a7b",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak St",
+        "phone_number": "987-654-3210",
+        "email": "123mart@example.com",
+        "description": "A large department store",
+        "created_at": "2023-09-20T15:11:08.777Z",
+        "updated_at": "2023-09-21T08:34:12.649Z"
+      },
+      {
+        "id": "b8f9225d-340b-4895-8cd8-04b0e1e44898",
+        "name": "Quick Mart",
+        "merchant_address": "10 Maple Ave",
+        "phone_number": "888-555-1234",
+        "email": "quickmart@example.com",
+        "description": "A neighborhood grocery store",
+        "created_at": "2023-09-21T04:16:07.835Z",
+        "updated_at": "2023-09-21T08:59:39.587Z"
+      },
+      {
+        "id": "c8b7d3bd-fc02-4b99-b2c2-025ee26f1607",
+        "name": "Supermarket",
+        "merchant_address": "567 Pine St",
+        "phone_number": "111-222-3333",
+        "email": "supermarket@example.com",
+        "description": "A popular shopping mall",
+        "created_at": "2023-09-20T15:39:12.869Z",
+        "updated_at": "2023-09-20T23:19:19.949Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "341ab65e-e7e2-4caf-8a76-1ddb745a5fcc",
+        "transaction_date": "2023-09-21T08:41:45.806Z",
+        "amount": 63717,
+        "reward_points": 4645,
+        "fiscal_year": 73224,
+        "created_at": "2023-09-20T18:50:45.214Z",
+        "updated_at": "2023-09-20T21:37:10.645Z",
+        "merchant_id": "b8f9225d-340b-4895-8cd8-04b0e1e44898",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6273b269-57e5-4757-86a5-8ed716087cbc",
+        "transaction_date": "2023-09-21T05:23:35.132Z",
+        "amount": 13650,
+        "reward_points": 81389,
+        "fiscal_year": 86917,
+        "created_at": "2023-09-21T11:19:53.117Z",
+        "updated_at": "2023-09-20T14:08:45.058Z",
+        "merchant_id": "c8b7d3bd-fc02-4b99-b2c2-025ee26f1607",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce98f691-c191-46ee-87a0-44977d8dbd07",
+        "transaction_date": "2023-09-20T23:34:18.419Z",
+        "amount": 62641,
+        "reward_points": 42146,
+        "fiscal_year": 23230,
+        "created_at": "2023-09-21T04:24:20.733Z",
+        "updated_at": "2023-09-20T19:20:49.821Z",
+        "merchant_id": "9679dda6-93d9-4c13-8fb3-a316eb83c24d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "183bb40a-9f00-4c87-a421-50f1aee6790e",
+        "transaction_date": "2023-09-21T05:03:50.490Z",
+        "amount": 82509,
+        "reward_points": 94945,
+        "fiscal_year": 97605,
+        "created_at": "2023-09-20T11:47:18.519Z",
+        "updated_at": "2023-09-20T16:53:29.169Z",
+        "merchant_id": "b8f9225d-340b-4895-8cd8-04b0e1e44898",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "77f8bafd-dc57-4c67-b5a4-c3fe11f3fb73",
+        "transaction_date": "2023-09-20T15:59:13.678Z",
+        "amount": 98843,
+        "reward_points": 33808,
+        "fiscal_year": 68770,
+        "created_at": "2023-09-20T17:42:18.895Z",
+        "updated_at": "2023-09-20T17:27:20.463Z",
+        "merchant_id": "9679dda6-93d9-4c13-8fb3-a316eb83c24d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "357a7b49-bdb3-4980-b121-ddff545ba4c5",
+        "card_number": "1234 5678 9012 3456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-20T16:36:57.914Z",
+        "updated_at": "2023-09-20T12:24:02.619Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c0813be-1cea-4d79-a70a-d9174e00b5d2",
+        "card_number": "9876 5432 1098 7654",
+        "card_pin": "9876",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-20T15:33:14.642Z",
+        "updated_at": "2023-09-21T00:06:52.694Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "83558fde-4952-45bd-92f6-2144e9cd8631",
+        "card_number": "5678 9012 3456 7890",
+        "card_pin": "5678",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T21:35:04.453Z",
+        "updated_at": "2023-09-21T05:57:33.371Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1ebb1eaa-4e75-4ad0-a387-a73d0c868e6c",
+        "card_number": "4321 0987 6543 2109",
+        "card_pin": "4321",
+        "phone_number": "888-555-1234",
+        "created_at": "2023-09-21T04:20:13.773Z",
+        "updated_at": "2023-09-21T11:09:08.776Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0196c190-0651-445d-8258-623a2250b32a",
+        "card_number": "8765 4321 0987 6543",
+        "card_pin": "8765",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-20T23:57:58.881Z",
+        "updated_at": "2023-09-21T03:05:22.144Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "b8522d7b-2340-4442-83c5-53ece9fac87b",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "001",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-20T11:56:41.627Z",
+        "updated_at": "2023-09-20T23:16:28.818Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "864cdacf-3028-45e5-b894-643b22c94cef",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "002",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-20T18:01:16.609Z",
+        "updated_at": "2023-09-20T14:43:59.919Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "39b586ec-bdec-447d-bb9f-c831f98e85cf",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "003",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-21T09:55:03.336Z",
+        "updated_at": "2023-09-20T13:49:03.142Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "caca03e9-964e-43a7-b1b7-dbd61df4f0e9",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "004",
+        "address_address": "10 Maple Ave",
+        "created_at": "2023-09-21T05:54:37.994Z",
+        "updated_at": "2023-09-21T03:32:40.733Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "88bfef69-7aaf-4137-aeb0-4df1973cb2eb",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "005",
+        "address_address": "567 Pine St",
+        "created_at": "2023-09-20T11:33:45.417Z",
+        "updated_at": "2023-09-21T06:30:07.282Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f4a14f26-eea5-4aa2-9386-bf7cd1f80d94",
+        "email": "Emmanuelle_Yost95@roq.tech",
+        "firstName": "Lacey",
+        "lastName": "Gusikowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1230.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "cb3e1adf-143e-4479-ba49-c84d3e7e46d4",
+        "email": "Marcelino_Satterfield@roq.tech",
+        "firstName": "Ole",
+        "lastName": "Collier",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2365020",
+        "tenantId": null
+      },
+      {
+        "reference": "b7e43f82-bff7-4d43-a415-93d6ab659f81",
+        "email": "Maudie_Will@roq.tech",
+        "firstName": "Lambert",
+        "lastName": "Lindgren",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/77.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0ae29405-7ed3-4e0d-9d51-c9958a2b6041",
+        "email": "Terry_Swaniawski@roq.tech",
+        "firstName": "Maye",
+        "lastName": "Huel-Mertz",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28230474",
+        "tenantId": null
+      },
+      {
+        "reference": "bc91299d-2183-4e28-addb-a655294cdf9c",
+        "email": "Shanny.Gusikowski@roq.tech",
+        "firstName": "Johnny",
+        "lastName": "Sipes",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/19012123",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "b24c1166-52c7-41e3-8f0a-23e70a8f5142",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A local store selling various products",
+        "created_at": "2023-09-20T23:16:21.906Z",
+        "updated_at": "2023-09-20T13:49:02.852Z"
+      },
+      {
+        "id": "9478a113-52d1-4b74-9330-871818811081",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-123-4567",
+        "email": "xyzshop@example.com",
+        "description": "A shop specializing in electronics",
+        "created_at": "2023-09-20T20:39:05.551Z",
+        "updated_at": "2023-09-20T22:08:27.743Z"
+      },
+      {
+        "id": "3d740083-ece1-4d25-bbbb-3c5473e51db5",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak Ave",
+        "phone_number": "987-654-3210",
+        "email": "123mart@example.com",
+        "description": "A convenience store with everyday items",
+        "created_at": "2023-09-20T13:56:28.723Z",
+        "updated_at": "2023-09-20T12:06:43.245Z"
+      },
+      {
+        "id": "bf4a5704-4c00-418b-ac2f-52975c1a0f87",
+        "name": "Best Buy",
+        "merchant_address": "10 Maple Rd",
+        "phone_number": "888-888-8888",
+        "email": "bestbuy@example.com",
+        "description": "A popular retail chain",
+        "created_at": "2023-09-20T17:22:36.521Z",
+        "updated_at": "2023-09-20T19:58:38.100Z"
+      },
+      {
+        "id": "d0528d2b-8b42-4b5f-a272-a324b123251e",
+        "name": "Supermarket",
+        "merchant_address": "555 Pine Ln",
+        "phone_number": "999-999-9999",
+        "email": "supermarket@example.com",
+        "description": "A large grocery store",
+        "created_at": "2023-09-20T22:43:55.667Z",
+        "updated_at": "2023-09-21T03:49:40.597Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d4bb7ba9-0142-4004-bb6d-cea26e1e02d5",
+        "transaction_date": "2023-09-20T23:24:33.493Z",
+        "amount": 41224,
+        "reward_points": 85653,
+        "fiscal_year": 50139,
+        "created_at": "2023-09-20T19:33:32.422Z",
+        "updated_at": "2023-09-20T15:45:45.872Z",
+        "merchant_id": "3d740083-ece1-4d25-bbbb-3c5473e51db5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9515dd1e-c652-4d5a-a7d3-0e52bf396c57",
+        "transaction_date": "2023-09-21T01:56:58.310Z",
+        "amount": 5763,
+        "reward_points": 27761,
+        "fiscal_year": 65546,
+        "created_at": "2023-09-21T09:35:55.652Z",
+        "updated_at": "2023-09-20T19:57:13.925Z",
+        "merchant_id": "bf4a5704-4c00-418b-ac2f-52975c1a0f87",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "10a0cd7b-3a6f-43ef-b541-bce16fdf917b",
+        "transaction_date": "2023-09-20T18:13:51.290Z",
+        "amount": 67206,
+        "reward_points": 19038,
+        "fiscal_year": 30657,
+        "created_at": "2023-09-21T06:14:50.912Z",
+        "updated_at": "2023-09-21T09:07:16.632Z",
+        "merchant_id": "9478a113-52d1-4b74-9330-871818811081",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b22a59c7-8123-415f-b58e-934e7fa2417c",
+        "transaction_date": "2023-09-21T08:23:06.132Z",
+        "amount": 66930,
+        "reward_points": 61148,
+        "fiscal_year": 71426,
+        "created_at": "2023-09-20T17:33:53.366Z",
+        "updated_at": "2023-09-20T19:01:35.557Z",
+        "merchant_id": "b24c1166-52c7-41e3-8f0a-23e70a8f5142",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f011683e-c6ac-46c0-9b03-4f52a0c3af35",
+        "transaction_date": "2023-09-21T07:57:04.414Z",
+        "amount": 45378,
+        "reward_points": 8102,
+        "fiscal_year": 83693,
+        "created_at": "2023-09-20T14:49:55.329Z",
+        "updated_at": "2023-09-21T04:14:05.240Z",
+        "merchant_id": "b24c1166-52c7-41e3-8f0a-23e70a8f5142",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "99234e3c-4a1c-4033-a5a2-7abef990af79",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-21T04:12:22.038Z",
+        "updated_at": "2023-09-20T13:08:36.450Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5bdef0d5-af83-4cb6-ba60-5fbe68d32b09",
+        "card_number": "9876543210987654",
+        "card_pin": "5678",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-20T18:59:48.142Z",
+        "updated_at": "2023-09-20T17:30:10.946Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0df3f5d2-9d55-4a4d-bcf7-f3092410b0c9",
+        "card_number": "4567890123456789",
+        "card_pin": "9012",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-21T05:54:22.165Z",
+        "updated_at": "2023-09-21T02:54:43.096Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "002d28dc-bfb8-4848-ad6b-d336e328e2ad",
+        "card_number": "3210987654321098",
+        "card_pin": "3456",
+        "phone_number": "888-888-8888",
+        "created_at": "2023-09-20T19:12:12.218Z",
+        "updated_at": "2023-09-20T13:55:53.748Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0adbf39b-d07b-46c5-8c39-2a8e77f111db",
+        "card_number": "6543210987654321",
+        "card_pin": "7890",
+        "phone_number": "999-999-9999",
+        "created_at": "2023-09-21T00:50:01.958Z",
+        "updated_at": "2023-09-20T15:00:48.826Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "08388b19-0aed-4a15-9f9e-235dace98288",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "123",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-20T23:32:29.653Z",
+        "updated_at": "2023-09-20T13:52:12.364Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c85df0d8-2d8f-46d8-8373-74ee484b3fcf",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "456",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-21T01:47:18.725Z",
+        "updated_at": "2023-09-21T10:06:17.268Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4bb608cc-0c51-43fa-acf6-291eb3ccdeb1",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "789",
+        "address_address": "789 Oak Ave",
+        "created_at": "2023-09-20T21:16:00.786Z",
+        "updated_at": "2023-09-20T16:54:53.376Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "309f87eb-db7b-4435-8f64-46d7d0351055",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "012",
+        "address_address": "10 Maple Rd",
+        "created_at": "2023-09-21T02:44:03.815Z",
+        "updated_at": "2023-09-21T01:35:42.219Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "54fca6ce-d60f-4c64-b21a-1bbc8c26ee10",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "345",
+        "address_address": "555 Pine Ln",
+        "created_at": "2023-09-21T09:22:26.657Z",
+        "updated_at": "2023-09-21T00:17:43.615Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "25073234-e006-4d89-83a8-f076afc9fa6d",
+        "email": "Aaron30@roq.tech",
+        "firstName": "Sienna",
+        "lastName": "Wiza",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/635.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b66579c3-6cbe-4531-961f-87f9e3b31b7f",
+        "email": "Sally1@roq.tech",
+        "firstName": "Shana",
+        "lastName": "Bins",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/47.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c5cab38d-d7d0-45a7-bb95-1dd215f4b31c",
+        "email": "Arianna_OKon@roq.tech",
+        "firstName": "Dedric",
+        "lastName": "Morissette",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/87868314",
+        "tenantId": null
+      },
+      {
+        "reference": "cf7311fa-00cb-4f65-9f5e-1458881156a6",
+        "email": "Beth_Beier85@roq.tech",
+        "firstName": "Viviane",
+        "lastName": "Friesen-Boyle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/34580723",
+        "tenantId": null
+      },
+      {
+        "reference": "d8b9c6fe-0134-4ee3-adad-516f9f47f879",
+        "email": "Elmira_Ledner26@roq.tech",
+        "firstName": "Cathryn",
+        "lastName": "Davis",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/39187911",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "457a4f5e-e689-48d5-9c7a-895a113e85bf",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "info@abcstore.com",
+        "description": "A store for all your needs",
+        "created_at": "2023-09-20T19:13:42.485Z",
+        "updated_at": "2023-09-20T14:20:06.399Z"
+      },
+      {
+        "id": "11e50cc3-a1e9-4a37-b838-c3cfcfaf94b4",
+        "name": "XYZ Company",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-555-5555",
+        "email": "contact@xyzcompany.com",
+        "description": "Providing quality products",
+        "created_at": "2023-09-21T10:51:23.809Z",
+        "updated_at": "2023-09-21T01:31:26.270Z"
+      },
+      {
+        "id": "95db5a0a-ab51-4d5b-8682-33fa4a12a2a0",
+        "name": "123 Shop",
+        "merchant_address": "789 Oak St",
+        "phone_number": "987-654-3210",
+        "email": "sales@123shop.com",
+        "description": "Your one-stop shop",
+        "created_at": "2023-09-20T16:56:24.169Z",
+        "updated_at": "2023-09-21T04:48:09.797Z"
+      },
+      {
+        "id": "7bc57fbc-3f12-49ef-afe9-ea0e86f41af1",
+        "name": "Best Buy",
+        "merchant_address": "10 Maple Ave",
+        "phone_number": "111-222-3333",
+        "email": "support@bestbuy.com",
+        "description": "Great deals and discounts",
+        "created_at": "2023-09-20T13:07:20.385Z",
+        "updated_at": "2023-09-20T23:05:33.243Z"
+      },
+      {
+        "id": "c48ed4c3-b0e3-4bad-885d-1e889940ead4",
+        "name": "Super Mart",
+        "merchant_address": "555 Pine St",
+        "phone_number": "444-555-6666",
+        "email": "info@supermart.com",
+        "description": "Wide range of products available",
+        "created_at": "2023-09-21T08:25:03.150Z",
+        "updated_at": "2023-09-21T01:35:51.376Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "a7865123-a5e3-43b1-b1ef-7f41427dd287",
+        "transaction_date": "2023-09-21T04:27:42.824Z",
+        "amount": 91227,
+        "reward_points": 42937,
+        "fiscal_year": 91650,
+        "created_at": "2023-09-21T02:04:27.356Z",
+        "updated_at": "2023-09-20T13:38:23.985Z",
+        "merchant_id": "95db5a0a-ab51-4d5b-8682-33fa4a12a2a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "845bf4ec-1edf-42e4-ade6-6cb2e15de5d8",
+        "transaction_date": "2023-09-21T03:46:48.480Z",
+        "amount": 85888,
+        "reward_points": 1078,
+        "fiscal_year": 57376,
+        "created_at": "2023-09-21T10:04:33.504Z",
+        "updated_at": "2023-09-20T19:02:52.312Z",
+        "merchant_id": "11e50cc3-a1e9-4a37-b838-c3cfcfaf94b4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "063cc9f5-1aa7-4186-997b-2f0153d48678",
+        "transaction_date": "2023-09-21T00:31:24.302Z",
+        "amount": 59492,
+        "reward_points": 45518,
+        "fiscal_year": 29831,
+        "created_at": "2023-09-20T17:28:08.659Z",
+        "updated_at": "2023-09-20T16:16:30.169Z",
+        "merchant_id": "7bc57fbc-3f12-49ef-afe9-ea0e86f41af1",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "29aa56c8-a636-4c0e-aca3-60e7d19c5f4c",
+        "transaction_date": "2023-09-20T21:14:49.124Z",
+        "amount": 58429,
+        "reward_points": 42429,
+        "fiscal_year": 75009,
+        "created_at": "2023-09-20T14:27:55.660Z",
+        "updated_at": "2023-09-20T22:01:38.912Z",
+        "merchant_id": "c48ed4c3-b0e3-4bad-885d-1e889940ead4",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "fbf151ef-5c1b-4839-a7d0-3e5eed65fbf3",
+        "transaction_date": "2023-09-21T07:26:59.680Z",
+        "amount": 4164,
+        "reward_points": 83447,
+        "fiscal_year": 40434,
+        "created_at": "2023-09-20T18:42:24.734Z",
+        "updated_at": "2023-09-21T03:04:21.922Z",
+        "merchant_id": "95db5a0a-ab51-4d5b-8682-33fa4a12a2a0",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "2de69a81-4699-4a67-9c3a-b1e6639271f1",
+        "card_number": "1234 5678 9012 3456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-21T05:46:03.623Z",
+        "updated_at": "2023-09-20T23:17:23.325Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e7cf3863-717a-4f3c-abdf-520dd1610c11",
+        "card_number": "9876 5432 1098 7654",
+        "card_pin": "5678",
+        "phone_number": "555-555-5555",
+        "created_at": "2023-09-20T17:08:34.863Z",
+        "updated_at": "2023-09-20T16:00:56.341Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "058a6cc5-748b-407f-bb5e-4911ccb614ee",
+        "card_number": "2468 1357 8024 6913",
+        "card_pin": "9012",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T11:26:34.132Z",
+        "updated_at": "2023-09-20T23:30:27.778Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e219b80a-253d-4483-a351-ba5207205ef8",
+        "card_number": "8642 9753 1864 2975",
+        "card_pin": "3456",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-20T13:20:37.044Z",
+        "updated_at": "2023-09-21T08:34:58.108Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6b470294-34a6-40f4-8a1a-885feadbb994",
+        "card_number": "7531 8642 9753 1864",
+        "card_pin": "7890",
+        "phone_number": "444-555-6666",
+        "created_at": "2023-09-21T07:51:35.400Z",
+        "updated_at": "2023-09-21T08:35:20.297Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "9d4d9a5a-4902-4e2e-8907-872cdf71767f",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "1234",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-21T03:19:23.560Z",
+        "updated_at": "2023-09-21T00:58:35.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9deebbb9-4e50-423f-b46f-f2110a011e28",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "5678",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-21T08:03:19.501Z",
+        "updated_at": "2023-09-21T04:58:48.826Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "bf84873f-6090-43a7-974d-acc59d70804c",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "9012",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-20T18:10:49.334Z",
+        "updated_at": "2023-09-21T01:25:42.016Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "91acf3ff-ea94-4c8e-815c-5a081d704014",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "3456",
+        "address_address": "10 Maple Ave",
+        "created_at": "2023-09-21T03:27:16.229Z",
+        "updated_at": "2023-09-20T14:00:17.823Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d9f57637-58b3-4e48-a37d-84c756e29143",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "7890",
+        "address_address": "555 Pine St",
+        "created_at": "2023-09-21T06:28:27.627Z",
+        "updated_at": "2023-09-21T07:57:58.994Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "a7f16155-977c-4d33-b4e3-5e5251f86f65",
+        "email": "Elinore21@roq.tech",
+        "firstName": "Mazie",
+        "lastName": "Barton",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/110.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "79647ea0-39cc-434d-bb9b-e0578b1af9da",
+        "email": "Bianka_Nikolaus@roq.tech",
+        "firstName": "Vernon",
+        "lastName": "Turcotte",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/346.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6a8ef20b-a0e8-4189-afb5-46be450de512",
+        "email": "Roosevelt.Spencer54@roq.tech",
+        "firstName": "Conor",
+        "lastName": "Lakin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/55068709",
+        "tenantId": null
+      },
+      {
+        "reference": "783789f6-0ac3-4e2d-9763-478991a61b71",
+        "email": "Osvaldo.Kuhlman@roq.tech",
+        "firstName": "Sunny",
+        "lastName": "McDermott",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/23772638",
+        "tenantId": null
+      },
+      {
+        "reference": "37ee56bf-9eef-402d-8974-5aa4ce99eb9d",
+        "email": "Lyla42@roq.tech",
+        "firstName": "Orville",
+        "lastName": "Hettinger",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/427.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "92ed83bb-f7e1-467b-9378-922eef4ad804",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A local store selling various products",
+        "created_at": "2023-09-20T20:08:15.720Z",
+        "updated_at": "2023-09-21T03:11:59.579Z"
+      },
+      {
+        "id": "beaad674-3c7b-4b5c-ad81-8f287bec6f3d",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-123-4567",
+        "email": "xyzshop@example.com",
+        "description": "A shop specializing in electronics",
+        "created_at": "2023-09-21T04:00:56.478Z",
+        "updated_at": "2023-09-21T09:10:09.278Z"
+      },
+      {
+        "id": "52af9072-4a9f-4d25-902e-2e514d2aa3f9",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak St",
+        "phone_number": "987-654-3210",
+        "email": "123mart@example.com",
+        "description": "A convenience store with everyday items",
+        "created_at": "2023-09-21T04:18:46.013Z",
+        "updated_at": "2023-09-21T04:11:40.735Z"
+      },
+      {
+        "id": "e7afd1ee-38be-461f-848b-b0614760ffc6",
+        "name": "Best Buy",
+        "merchant_address": "321 Pine St",
+        "phone_number": "888-888-8888",
+        "email": "bestbuy@example.com",
+        "description": "A popular retail chain",
+        "created_at": "2023-09-21T05:24:27.134Z",
+        "updated_at": "2023-09-20T20:51:45.789Z"
+      },
+      {
+        "id": "d075ef59-eb32-4b24-89a0-190998463c94",
+        "name": "Supermarket",
+        "merchant_address": "987 Maple St",
+        "phone_number": "999-999-9999",
+        "email": "supermarket@example.com",
+        "description": "A large supermarket with a wide selection of groceries",
+        "created_at": "2023-09-20T13:36:56.000Z",
+        "updated_at": "2023-09-20T13:44:53.103Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "29b9b3b3-3af1-4988-b4c4-e783f638e491",
+        "transaction_date": "2023-09-21T03:29:33.036Z",
+        "amount": 30175,
+        "reward_points": 27151,
+        "fiscal_year": 78622,
+        "created_at": "2023-09-21T04:24:21.078Z",
+        "updated_at": "2023-09-21T08:41:16.442Z",
+        "merchant_id": "52af9072-4a9f-4d25-902e-2e514d2aa3f9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "246c827b-7a03-497a-8c20-4002ed48c634",
+        "transaction_date": "2023-09-20T14:05:14.060Z",
+        "amount": 39432,
+        "reward_points": 85559,
+        "fiscal_year": 78772,
+        "created_at": "2023-09-21T08:17:24.586Z",
+        "updated_at": "2023-09-21T09:20:36.353Z",
+        "merchant_id": "92ed83bb-f7e1-467b-9378-922eef4ad804",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "21db2e40-e0ce-4185-99b3-45b851dcb7d5",
+        "transaction_date": "2023-09-20T19:51:46.926Z",
+        "amount": 67856,
+        "reward_points": 75748,
+        "fiscal_year": 14598,
+        "created_at": "2023-09-20T14:19:11.629Z",
+        "updated_at": "2023-09-21T08:01:18.808Z",
+        "merchant_id": "d075ef59-eb32-4b24-89a0-190998463c94",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0d1c815e-c7ef-437f-aff0-87c8100ee31c",
+        "transaction_date": "2023-09-21T06:25:50.155Z",
+        "amount": 14719,
+        "reward_points": 99745,
+        "fiscal_year": 42102,
+        "created_at": "2023-09-20T15:57:19.305Z",
+        "updated_at": "2023-09-20T20:27:05.793Z",
+        "merchant_id": "beaad674-3c7b-4b5c-ad81-8f287bec6f3d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71f9369d-b26a-4595-81f4-6a231ceb4da2",
+        "transaction_date": "2023-09-20T22:56:34.349Z",
+        "amount": 83513,
+        "reward_points": 76176,
+        "fiscal_year": 78745,
+        "created_at": "2023-09-21T02:48:17.173Z",
+        "updated_at": "2023-09-21T06:23:28.003Z",
+        "merchant_id": "92ed83bb-f7e1-467b-9378-922eef4ad804",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "681cbe06-0f15-4be3-9373-d57c1c2c0a7a",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-20T21:29:42.353Z",
+        "updated_at": "2023-09-21T10:34:44.227Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f9be0c03-1cc5-4ca5-9259-9c7be04ba987",
+        "card_number": "9876543210987654",
+        "card_pin": "5678",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-21T06:26:15.485Z",
+        "updated_at": "2023-09-20T18:09:38.330Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ee9f8ca-4fd5-4676-99a9-e27c595a4375",
+        "card_number": "5678901234567890",
+        "card_pin": "9012",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-21T00:38:01.940Z",
+        "updated_at": "2023-09-21T00:54:09.868Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "86e44e0a-7dee-4f4f-bf62-04844f14feea",
+        "card_number": "4321098765432109",
+        "card_pin": "3456",
+        "phone_number": "888-888-8888",
+        "created_at": "2023-09-20T19:46:07.375Z",
+        "updated_at": "2023-09-21T01:37:36.275Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "668d9ffd-916f-45ba-aed9-1760a54e3dcd",
+        "card_number": "8765432109876543",
+        "card_pin": "7890",
+        "phone_number": "999-999-9999",
+        "created_at": "2023-09-21T01:55:54.972Z",
+        "updated_at": "2023-09-21T10:32:01.731Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "466696df-4812-4281-b54d-8fe3548d63b5",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "Q1",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-20T22:44:33.829Z",
+        "updated_at": "2023-09-21T01:49:42.251Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b4b76d32-af63-4792-9945-ccfa370b0cc3",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "Q2",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-21T02:31:26.405Z",
+        "updated_at": "2023-09-21T06:50:23.735Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3bc1c908-0a33-4aad-a187-0a39edffe0d9",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "Q3",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-21T07:19:57.379Z",
+        "updated_at": "2023-09-21T00:00:56.100Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c233e798-7617-4ea3-9e88-30244413d126",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "Q4",
+        "address_address": "321 Pine St",
+        "created_at": "2023-09-21T11:03:07.341Z",
+        "updated_at": "2023-09-20T12:57:07.589Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "34288cee-b2bf-418e-9fcb-780299d45ad7",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "Q5",
+        "address_address": "987 Maple St",
+        "created_at": "2023-09-20T15:22:36.752Z",
+        "updated_at": "2023-09-20T17:37:00.582Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7e7ed31d-0a83-49bd-bc85-a4e5e21d571a",
+        "email": "Camryn.Hartmann96@roq.tech",
+        "firstName": "Wyman",
+        "lastName": "Howe",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91951040",
+        "tenantId": null
+      },
+      {
+        "reference": "157f6b8f-a23f-47f5-8f47-fb6c34c06910",
+        "email": "Noelia.Grant@roq.tech",
+        "firstName": "Jefferey",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1180.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1e6b27ab-2150-4d7e-a210-ebbc43803b24",
+        "email": "Maverick50@roq.tech",
+        "firstName": "Jakayla",
+        "lastName": "Kuhlman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/949.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "2eb8c066-3b29-49b9-8f28-697d33de849b",
+        "email": "Maureen.Gerhold87@roq.tech",
+        "firstName": "Hanna",
+        "lastName": "Kihn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/962.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "10c1d74a-c313-4543-a200-d0f687ae507f",
+        "email": "Justyn.Lueilwitz@roq.tech",
+        "firstName": "Bettie",
+        "lastName": "Toy",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/36122364",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "2f3d5d59-4df3-4681-8ba1-cd8b9f746448",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "123-456-7890",
+        "email": "abcstore@example.com",
+        "description": "A local convenience store",
+        "created_at": "2023-09-20T12:58:04.916Z",
+        "updated_at": "2023-09-20T14:26:44.148Z"
+      },
+      {
+        "id": "9e0d339a-2460-4b52-adfe-593d464b5145",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "987-654-3210",
+        "email": "xyzshop@example.com",
+        "description": "A trendy boutique",
+        "created_at": "2023-09-20T15:14:15.953Z",
+        "updated_at": "2023-09-20T17:08:57.112Z"
+      },
+      {
+        "id": "ea3b458b-7e60-47bb-971a-7762d1af8373",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak St",
+        "phone_number": "555-123-4567",
+        "email": "123mart@example.com",
+        "description": "A grocery store",
+        "created_at": "2023-09-20T13:19:39.972Z",
+        "updated_at": "2023-09-20T16:15:27.633Z"
+      },
+      {
+        "id": "672f89bc-b653-4531-904f-95d8bf4cb449",
+        "name": "Best Buy",
+        "merchant_address": "321 Maple Ave",
+        "phone_number": "888-999-0000",
+        "email": "bestbuy@example.com",
+        "description": "An electronics retailer",
+        "created_at": "2023-09-21T05:46:32.492Z",
+        "updated_at": "2023-09-20T16:25:20.169Z"
+      },
+      {
+        "id": "a47d2179-1f6a-4ca2-9998-ec0e31be8098",
+        "name": "Supermarket",
+        "merchant_address": "654 Pine Rd",
+        "phone_number": "111-222-3333",
+        "email": "supermarket@example.com",
+        "description": "A large supermarket chain",
+        "created_at": "2023-09-20T14:58:15.459Z",
+        "updated_at": "2023-09-20T22:09:41.729Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "64037a84-34ea-487c-baa0-42a2302756c6",
+        "transaction_date": "2023-09-20T22:32:26.904Z",
+        "amount": 98722,
+        "reward_points": 87563,
+        "fiscal_year": 55483,
+        "created_at": "2023-09-20T13:38:36.366Z",
+        "updated_at": "2023-09-21T03:17:14.294Z",
+        "merchant_id": "2f3d5d59-4df3-4681-8ba1-cd8b9f746448",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7b7044b2-0be3-42a3-900b-2811b75cdc47",
+        "transaction_date": "2023-09-21T03:01:45.964Z",
+        "amount": 430,
+        "reward_points": 89315,
+        "fiscal_year": 74241,
+        "created_at": "2023-09-20T21:10:09.229Z",
+        "updated_at": "2023-09-21T04:52:50.138Z",
+        "merchant_id": "672f89bc-b653-4531-904f-95d8bf4cb449",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f5bd8c1b-8dcd-4027-9f37-3b7f5d134686",
+        "transaction_date": "2023-09-20T20:42:46.765Z",
+        "amount": 34657,
+        "reward_points": 56838,
+        "fiscal_year": 69550,
+        "created_at": "2023-09-21T10:31:36.875Z",
+        "updated_at": "2023-09-21T04:17:57.850Z",
+        "merchant_id": "2f3d5d59-4df3-4681-8ba1-cd8b9f746448",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "dac9717a-e592-4b26-ade2-eef5b6aeb59e",
+        "transaction_date": "2023-09-20T23:12:46.168Z",
+        "amount": 47394,
+        "reward_points": 27012,
+        "fiscal_year": 46822,
+        "created_at": "2023-09-20T16:18:36.586Z",
+        "updated_at": "2023-09-21T05:16:35.538Z",
+        "merchant_id": "9e0d339a-2460-4b52-adfe-593d464b5145",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1039598a-a40b-4c04-9d2f-dd81616f2b85",
+        "transaction_date": "2023-09-20T16:07:47.466Z",
+        "amount": 44208,
+        "reward_points": 14575,
+        "fiscal_year": 11594,
+        "created_at": "2023-09-21T05:40:42.383Z",
+        "updated_at": "2023-09-20T14:32:41.915Z",
+        "merchant_id": "672f89bc-b653-4531-904f-95d8bf4cb449",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "60ab037a-998e-4144-a901-2f86cb8c357a",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "123-456-7890",
+        "created_at": "2023-09-21T00:14:46.814Z",
+        "updated_at": "2023-09-21T11:09:05.087Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9e454808-5b02-4b5f-9f67-de03c5fe6dc2",
+        "card_number": "9876543210987654",
+        "card_pin": "9876",
+        "phone_number": "987-654-3210",
+        "created_at": "2023-09-20T16:57:09.445Z",
+        "updated_at": "2023-09-21T09:29:42.688Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a562428b-740d-4081-8667-6938f16866da",
+        "card_number": "5555555555555555",
+        "card_pin": "5555",
+        "phone_number": "555-123-4567",
+        "created_at": "2023-09-20T14:11:43.693Z",
+        "updated_at": "2023-09-20T19:31:28.118Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5050b4b9-ce14-47a2-a2f5-9909c84edfaa",
+        "card_number": "8888888888888888",
+        "card_pin": "8888",
+        "phone_number": "888-999-0000",
+        "created_at": "2023-09-21T08:32:28.543Z",
+        "updated_at": "2023-09-21T00:05:42.528Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c4b59a43-a7e2-4027-b703-3c346cf9dc1c",
+        "card_number": "1111111111111111",
+        "card_pin": "1111",
+        "phone_number": "111-222-3333",
+        "created_at": "2023-09-21T07:03:38.390Z",
+        "updated_at": "2023-09-20T12:54:13.975Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "927a3bba-c3bd-42b8-86ac-4a6f2bd4267a",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "Q123",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-21T10:12:40.547Z",
+        "updated_at": "2023-09-21T04:29:50.045Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "714a1e80-3f03-4fb5-94a8-5e9c94b58ceb",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "Q456",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-20T11:25:07.493Z",
+        "updated_at": "2023-09-21T00:30:13.514Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "94b90723-df7b-417b-b63d-926f7c784365",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "Q789",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-20T21:43:01.885Z",
+        "updated_at": "2023-09-20T11:46:48.845Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "53780fb3-2087-426a-a124-b7186d010b69",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "Q321",
+        "address_address": "321 Maple Ave",
+        "created_at": "2023-09-21T04:38:06.279Z",
+        "updated_at": "2023-09-21T11:22:08.918Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1340a81d-912b-4873-ba71-5f008a8ec2d6",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "Q654",
+        "address_address": "654 Pine Rd",
+        "created_at": "2023-09-20T15:37:24.286Z",
+        "updated_at": "2023-09-20T14:32:21.485Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "33e793e8-c1cc-4768-8c51-84891f574f44",
+        "email": "Frederic23@roq.tech",
+        "firstName": "Mathew",
+        "lastName": "Collins",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14196654",
+        "tenantId": null
+      },
+      {
+        "reference": "78f23cbe-5b5e-465c-a9e8-1130411656a5",
+        "email": "Krystal_Deckow85@roq.tech",
+        "firstName": "Aubree",
+        "lastName": "Dare",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/997.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b4eac598-2864-48bf-ba38-b50f92b80fd3",
+        "email": "Casandra_Harris@roq.tech",
+        "firstName": "Loyal",
+        "lastName": "Gutmann-Fahey",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54362031",
+        "tenantId": null
+      },
+      {
+        "reference": "3f883b70-4738-4ecb-89a4-e80172ea4d4a",
+        "email": "Marjory.DAmore@roq.tech",
+        "firstName": "Eldon",
+        "lastName": "Jast",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1178.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1271b49a-f89a-4c37-a029-561350277c5e",
+        "email": "Jaiden97@roq.tech",
+        "firstName": "Bell",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/298.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "merchant": [
+      {
+        "id": "b7a044a0-634a-4e47-b490-354e0f3a73e5",
+        "name": "ABC Store",
+        "merchant_address": "123 Main St",
+        "phone_number": "555-1234",
+        "email": "abcstore@example.com",
+        "description": "A local store selling various products",
+        "created_at": "2023-09-20T15:19:44.607Z",
+        "updated_at": "2023-09-21T08:40:11.929Z"
+      },
+      {
+        "id": "e4bcfb94-57ae-495a-a0e9-ec3a4454769a",
+        "name": "XYZ Shop",
+        "merchant_address": "456 Elm St",
+        "phone_number": "555-5678",
+        "email": "xyzshop@example.com",
+        "description": "A shop specializing in electronics",
+        "created_at": "2023-09-20T13:39:10.813Z",
+        "updated_at": "2023-09-21T02:51:36.597Z"
+      },
+      {
+        "id": "8b820d01-d5d7-48e2-81bd-6b78da15d514",
+        "name": "123 Mart",
+        "merchant_address": "789 Oak St",
+        "phone_number": "555-9012",
+        "email": "123mart@example.com",
+        "description": "A convenience store with everyday essentials",
+        "created_at": "2023-09-21T03:08:55.415Z",
+        "updated_at": "2023-09-21T05:19:57.073Z"
+      },
+      {
+        "id": "e8e84d37-938b-4658-a4ea-39b83ca89f31",
+        "name": "Best Buy",
+        "merchant_address": "10 Maple Ave",
+        "phone_number": "555-3456",
+        "email": "bestbuy@example.com",
+        "description": "A large retail chain offering a wide range of products",
+        "created_at": "2023-09-21T05:14:49.283Z",
+        "updated_at": "2023-09-20T16:34:52.992Z"
+      },
+      {
+        "id": "bb4ed340-82eb-4f5d-a62e-9a1a53ad229c",
+        "name": "Supermarket",
+        "merchant_address": "55 Pine Rd",
+        "phone_number": "555-7890",
+        "email": "supermarket@example.com",
+        "description": "A grocery store with fresh produce and groceries",
+        "created_at": "2023-09-21T09:01:14.343Z",
+        "updated_at": "2023-09-21T09:27:52.233Z"
+      }
+    ],
+    "transaction": [
+      {
+        "id": "d33f683a-8e92-4d4d-9b4c-f39253a4274f",
+        "transaction_date": "2023-09-20T17:25:22.891Z",
+        "amount": 83672,
+        "reward_points": 99919,
+        "fiscal_year": 52029,
+        "created_at": "2023-09-21T04:07:54.322Z",
+        "updated_at": "2023-09-20T23:36:16.355Z",
+        "merchant_id": "8b820d01-d5d7-48e2-81bd-6b78da15d514",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "99394952-ea7d-48d3-b893-84e646397ab6",
+        "transaction_date": "2023-09-21T04:22:27.400Z",
+        "amount": 54054,
+        "reward_points": 83858,
+        "fiscal_year": 38155,
+        "created_at": "2023-09-20T16:51:58.792Z",
+        "updated_at": "2023-09-21T10:41:25.688Z",
+        "merchant_id": "bb4ed340-82eb-4f5d-a62e-9a1a53ad229c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "20482182-25b2-4113-84a7-14405dc639c0",
+        "transaction_date": "2023-09-21T03:39:11.350Z",
+        "amount": 23140,
+        "reward_points": 28201,
+        "fiscal_year": 26416,
+        "created_at": "2023-09-20T18:54:09.092Z",
+        "updated_at": "2023-09-21T11:18:21.058Z",
+        "merchant_id": "e4bcfb94-57ae-495a-a0e9-ec3a4454769a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2fa6b843-7aa2-489f-9c88-5d19808b216a",
+        "transaction_date": "2023-09-21T01:53:14.078Z",
+        "amount": 7126,
+        "reward_points": 80518,
+        "fiscal_year": 9423,
+        "created_at": "2023-09-21T07:47:33.305Z",
+        "updated_at": "2023-09-20T22:18:45.718Z",
+        "merchant_id": "e4bcfb94-57ae-495a-a0e9-ec3a4454769a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9ae60ca6-4005-4f5c-a798-572731a85709",
+        "transaction_date": "2023-09-20T12:29:35.688Z",
+        "amount": 85453,
+        "reward_points": 23326,
+        "fiscal_year": 11502,
+        "created_at": "2023-09-21T02:55:14.388Z",
+        "updated_at": "2023-09-20T16:12:37.503Z",
+        "merchant_id": "e4bcfb94-57ae-495a-a0e9-ec3a4454769a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "card": [
+      {
+        "id": "a3aa6b5d-f0f2-4535-92ba-8e850818f3ea",
+        "card_number": "1234567890123456",
+        "card_pin": "1234",
+        "phone_number": "555-1234",
+        "created_at": "2023-09-21T05:22:51.133Z",
+        "updated_at": "2023-09-20T15:53:14.529Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "ce0bd11b-7627-4d17-8684-c5800cc5d9ce",
+        "card_number": "9876543210987654",
+        "card_pin": "5678",
+        "phone_number": "555-5678",
+        "created_at": "2023-09-20T13:58:17.553Z",
+        "updated_at": "2023-09-21T10:38:05.609Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "55d5b3fe-ffba-48d4-a7b2-dd739d950dd8",
+        "card_number": "5678901234567890",
+        "card_pin": "9012",
+        "phone_number": "555-9012",
+        "created_at": "2023-09-21T08:43:35.789Z",
+        "updated_at": "2023-09-21T00:47:59.635Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0037c9a0-d0ed-40f5-afbd-c5f2cbc76dc1",
+        "card_number": "4321098765432109",
+        "card_pin": "3456",
+        "phone_number": "555-3456",
+        "created_at": "2023-09-20T13:56:09.032Z",
+        "updated_at": "2023-09-20T21:51:47.642Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "51a6e232-7894-470d-9bf9-4b482c21d173",
+        "card_number": "8765432109876543",
+        "card_pin": "7890",
+        "phone_number": "555-7890",
+        "created_at": "2023-09-20T23:41:07.795Z",
+        "updated_at": "2023-09-20T21:40:39.485Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "address": [
+      {
+        "id": "c0b50100-e328-4224-8633-60dce3bccd0d",
+        "block": "A",
+        "lot": "1",
+        "qualification_code": "123",
+        "address_address": "123 Main St",
+        "created_at": "2023-09-21T01:30:52.087Z",
+        "updated_at": "2023-09-21T09:12:10.499Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "d32ffe0a-6f5d-4393-ae30-5d86269764a8",
+        "block": "B",
+        "lot": "2",
+        "qualification_code": "456",
+        "address_address": "456 Elm St",
+        "created_at": "2023-09-20T19:04:53.519Z",
+        "updated_at": "2023-09-21T02:24:22.954Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9d19179e-9f2b-4694-9b1b-2445e741bf69",
+        "block": "C",
+        "lot": "3",
+        "qualification_code": "789",
+        "address_address": "789 Oak St",
+        "created_at": "2023-09-21T07:18:57.761Z",
+        "updated_at": "2023-09-21T03:01:24.479Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "40a57ebb-dc75-4162-92fc-bfd1e002b741",
+        "block": "D",
+        "lot": "4",
+        "qualification_code": "012",
+        "address_address": "10 Maple Ave",
+        "created_at": "2023-09-21T03:40:49.029Z",
+        "updated_at": "2023-09-20T12:11:53.855Z",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "14a1ba8d-d8d7-4ed1-928e-5f6a3bb9a586",
+        "block": "E",
+        "lot": "5",
+        "qualification_code": "345",
+        "address_address": "55 Pine Rd",
+        "created_at": "2023-09-21T05:43:22.128Z",
+        "updated_at": "2023-09-21T00:04:05.930Z",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ff1c40f4-9f29-4056-b983-3c18c4274fa2",
+        "email": "Danial80@roq.tech",
+        "firstName": "Lukas",
+        "lastName": "White",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/246.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "386ab0ee-ef46-4f35-bd14-9f39cf99690f",
+        "email": "Buddy.Hackett@roq.tech",
+        "firstName": "Korey",
+        "lastName": "Wilderman",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/68105717",
+        "tenantId": null
+      },
+      {
+        "reference": "ab6affdb-5381-4bfa-849b-41ca93488851",
+        "email": "Burley_Collier90@roq.tech",
+        "firstName": "Curt",
+        "lastName": "Muller",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/49628594",
+        "tenantId": null
+      },
+      {
+        "reference": "dc9e5abb-ec55-45c5-9c41-a6411479cbdb",
+        "email": "Guido_Toy-Miller97@roq.tech",
+        "firstName": "Marcellus",
+        "lastName": "Lemke",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/96573155",
+        "tenantId": null
+      },
+      {
+        "reference": "9564790e-07a0-4fe3-b052-74f02610ad09",
+        "email": "Ottis.Schmeler72@roq.tech",
+        "firstName": "Enos",
+        "lastName": "Denesik",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/18621301",
+        "tenantId": null
+      }
+    ]
+  }
+]
